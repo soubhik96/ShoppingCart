@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Handlee&family=Gochi+Hand&family=Shrikhand&family=Edu+TAS+Beginner:wght@400;500;600&display=swap');
+
+
+/* font-family: 'Arvo', serif;
+font-family: 'Edu TAS Beginner', cursive; 
+
+*/
+
+.navbar,.jumbotron ,.badge{
+  background-color:#ddffc6fa ;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar img{
+  border-radius: 8px;
+  margin-right: 3px;
+}
+
+/* #51CD1B */
+
+.navbar-nav li :hover{
+  background: #40c706;
+  border-radius: 18px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: #f8f8f8;
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+.jumbotron .brand-name{
+  background: linear-gradient(90deg, rgba(60,144,4,1) 19%, rgba(54,228,10,1) 58%);
+  color: #ffffff;
+  padding: 3px 10px;
+  border-radius: 40px;
+ font-weight: 500;
+ font-family: 'Arvo', serif;
+}
+/* .jumbotron span :hover{
+  background: #ddffc6fa ;
+  color: #40c706;
+} */
+.jumbotron h1{
+  font-family: 'Edu TAS Beginner', cursive;
+}
+.jumbotron p{
+  /* font-family: 'Gochi Hand', cursive; */
+  font-weight: 400;
+  font-family: 'Handlee', cursive;
+  font-size: larger;
+  /* font-family: 'Shrikhand', cursive; */
+}
+.btn-primary{
+  background: linear-gradient(90deg, rgba(60,144,4,1) 19%, rgba(54,228,10,1) 58%);
+  color: #ffffff;
+}
+
+.btn{
+  border: none;
+  box-shadow: none;
+}
+
+.btn:active{
+  box-shadow: none;
+  
+}
+
+.btn:hover{
+  background: #ddffc6fa ;
+  color: #40c706;
+}
+
+.product .card-img-top{
+  height: 400px;
+}
+
+.card{
+  margin: 10px 0;
+
+}
+
+.card .card-body .btn-outer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card .card-body .rating{
+  margin-bottom: 15px;
+}
+
+.card .product-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .product-head .price{
+  color: #15b400;
+  font-weight: 700;
+}
+
+.checked {
+  color: orange;
+}
+
+.card-body .product-head .card-title{
+font-size: 1em;
+font-weight: 800;
+}
+
+.card-body .product-head .price{
+font-weight: 800;
+font-size: 1.1em;
+}
